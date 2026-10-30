@@ -1,0 +1,966 @@
+{
+  "committees": [
+    {
+      "name": "刑事",
+      "topics": [
+        "认罪认罚从宽案件的量刑协商与见证",
+        "刑事合规不起诉的适用边界",
+        "电子数据取证与质证要点",
+        "刑民交叉案件的程序选择",
+        "涉案财物处置与辩护衔接"
+      ]
+    },
+    {
+      "name": "民事",
+      "topics": [
+        "民法典合同编通则司法解释适用",
+        "举证责任分配与证据交换实务",
+        "民事再审与检察监督衔接",
+        "家事与财产交叉案件的代理边界"
+      ]
+    },
+    {
+      "name": "行政法",
+      "topics": [
+        "行政复议与行政诉讼衔接",
+        "行政机关负责人出庭应诉",
+        "行政协议案件的审理要点",
+        "行政处罚听证与程序合规"
+      ]
+    },
+    {
+      "name": "婚姻家庭法",
+      "topics": [
+        "离婚财产分割与股权处理",
+        "子女抚养权与探望权执行",
+        "夫妻共同债务认定",
+        "继承与遗嘱效力争议"
+      ]
+    },
+    {
+      "name": "知识产权",
+      "topics": [
+        "专利侵权比对与现有技术抗辩",
+        "商业秘密保护与竞业限制衔接",
+        "商标恶意抢注的应对",
+        "AI 生成内容的著作权归属"
+      ]
+    },
+    {
+      "name": "公司法",
+      "topics": [
+        "新公司法注册资本与出资责任",
+        "股东知情权与代表诉讼",
+        "董监高信义义务与责任",
+        "公司僵局与司法解散"
+      ]
+    },
+    {
+      "name": "法律顾问",
+      "topics": [
+        "政府法律顾问履职规范",
+        "企业常年法律顾问服务清单",
+        "重大决策合法性审查",
+        "顾问单位突发事件响应"
+      ]
+    },
+    {
+      "name": "仲裁与律师调解",
+      "topics": [
+        "仲裁协议效力与管辖异议",
+        "商事调解与仲裁衔接",
+        "律师调解工作室规范化",
+        "跨境仲裁裁决的承认与执行"
+      ]
+    },
+    {
+      "name": "金融",
+      "topics": [
+        "金融借款与民间借贷利率边界",
+        "资管产品适当性义务",
+        "融资性贸易与保理纠纷",
+        "金融消费者权益保护"
+      ]
+    },
+    {
+      "name": "财税法",
+      "topics": [
+        "税务行政复议与诉讼衔接",
+        "虚开增值税专用发票的认定",
+        "企业重组税务处理",
+        "涉税刑事风险的合规应对"
+      ]
+    },
+    {
+      "name": "涉外法律服务",
+      "topics": [
+        "涉外合同准据法与管辖",
+        "外国判决与仲裁裁决承认执行",
+        "跨境电商合规",
+        "出口管制与经济制裁应对"
+      ]
+    },
+    {
+      "name": "乡村振兴法律",
+      "topics": [
+        "农村土地承包与经营权流转",
+        "宅基地与集体经营性建设用地",
+        "村集体经济组织合同治理",
+        "涉农补贴与项目合规"
+      ]
+    },
+    {
+      "name": "环境资源与能源法",
+      "topics": [
+        "生态环境损害赔偿磋商",
+        "环境公益诉讼举证",
+        "碳交易与绿电合规",
+        "矿业权与新能源项目用地"
+      ]
+    },
+    {
+      "name": "劳动与社会保障法",
+      "topics": [
+        "灵活用工与新就业形态",
+        "竞业限制与保密协议",
+        "工伤认定与待遇争议",
+        "企业裁员与经济补偿"
+      ]
+    },
+    {
+      "name": "建设工程与房地产",
+      "topics": [
+        "工程价款结算与优先受偿权",
+        "实际施工人权利保护",
+        "商品房交付与烂尾处置",
+        "EPC 合同风险分配"
+      ]
+    },
+    {
+      "name": "网络与高新技术",
+      "topics": [
+        "数据出境与个人信息保护",
+        "平台责任与算法合规",
+        "开源软件许可证风险",
+        "AI 服务备案与内容安全"
+      ]
+    },
+    {
+      "name": "医药卫生",
+      "topics": [
+        "医疗损害责任鉴定",
+        "药品与器械合规",
+        "互联网诊疗监管",
+        "医保基金使用合规"
+      ]
+    },
+    {
+      "name": "企业合规",
+      "topics": [
+        "涉案企业合规整改",
+        "合规管理体系有效性评估",
+        "第三方监督评估机制",
+        "数据与反腐败合规"
+      ]
+    },
+    {
+      "name": "破产清算与并购重组",
+      "topics": [
+        "破产重整投资人招募",
+        "债权申报与别除权",
+        "预重整与庭外重组衔接",
+        "并购交易中的或有负债"
+      ]
+    },
+    {
+      "name": "反垄断与反不正当竞争",
+      "topics": [
+        "经营者集中申报",
+        "平台二选一与限定交易",
+        "商业秘密与仿冒混淆",
+        "行政垄断投诉"
+      ]
+    },
+    {
+      "name": "海商海事",
+      "topics": [
+        "提单与承运人责任",
+        "船舶碰撞与油污损害",
+        "海事仲裁与扣船",
+        "港口作业与货运代理"
+      ]
+    },
+    {
+      "name": "未成年人保护",
+      "topics": [
+        "未成年人网络保护",
+        "校园伤害事故责任",
+        "涉未成年人刑事案件特别程序",
+        "抚养与监护干预"
+      ]
+    },
+    {
+      "name": "老年人权益保障",
+      "topics": [
+        "意定监护与遗嘱信托",
+        "养老服务合同纠纷",
+        "涉老诈骗与财产保护",
+        "老年人居住权保障"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "name": "年度计划",
+      "prefix": "AP",
+      "desc": "从上年总结、议题征集到计划发布与年度复盘，形成可执行、可考核的年度工作安排。",
+      "focus": {
+        "主任": "主持主任会议审定年度计划，并报协会业务部门备案",
+        "副主任": "牵头起草年度计划，统筹任务分解与责任人落实",
+        "秘书长": "汇总委员议题建议，组织书面征求意见并跟踪季度进度",
+        "委员": "提出本领域议题建议，承接计划中的具体任务",
+        "秘书处": "承担会务、预算测算、台账维护与年度归档"
+      },
+      "deliverables": [
+        {
+          "name": "专委年度工作计划（送审稿）.md",
+          "format": "Markdown / Word",
+          "purpose": "报协会备案并作为全年执行依据",
+          "stage": "S3"
+        },
+        {
+          "name": "年度计划任务分解表.csv",
+          "format": "CSV",
+          "purpose": "把清单项落到人、落到季度",
+          "stage": "S4"
+        },
+        {
+          "name": "意见汇总表.md",
+          "format": "Markdown",
+          "purpose": "留痕：谁提了什么、采纳与否",
+          "stage": "S2"
+        },
+        {
+          "name": "年度工作总结.md",
+          "format": "Markdown / Word",
+          "purpose": "年末复盘与下一年度衔接",
+          "stage": "S5"
+        }
+      ],
+      "items": [
+        {
+          "id": "AP-01",
+          "stage": "S1",
+          "title": "汇总上年度工作总结与未完成事项",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "上年度工作总结"
+        },
+        {
+          "id": "AP-02",
+          "stage": "S1",
+          "title": "征集委员本年度议题建议",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "议题征集表"
+        },
+        {
+          "id": "AP-03",
+          "stage": "S1",
+          "title": "对接协会秘书处确认年度工作口径与预算",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "协会对接记录"
+        },
+        {
+          "id": "AP-04",
+          "stage": "S2",
+          "title": "起草专委年度工作计划（目标、任务、时间表）",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "专委年度工作计划（草案）"
+        },
+        {
+          "id": "AP-05",
+          "stage": "S2",
+          "title": "测算活动经费与场地需求",
+          "role": "秘书处",
+          "level": "suggest",
+          "deliverable": "经费预算表"
+        },
+        {
+          "id": "AP-06",
+          "stage": "S2",
+          "title": "征求两名以上委员书面意见并汇总",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "意见汇总表"
+        },
+        {
+          "id": "AP-07",
+          "stage": "S3",
+          "title": "召开主任会议审议计划草案",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "主任会议纪要"
+        },
+        {
+          "id": "AP-08",
+          "stage": "S3",
+          "title": "按审议意见修改并形成送审稿",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "年度工作计划（送审稿）"
+        },
+        {
+          "id": "AP-09",
+          "stage": "S3",
+          "title": "报协会业务部门备案",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "备案回执"
+        },
+        {
+          "id": "AP-10",
+          "stage": "S4",
+          "title": "向全体委员发布年度计划并分解到人",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "年度计划任务分解表"
+        },
+        {
+          "id": "AP-11",
+          "stage": "S4",
+          "title": "建立季度进度台账并按季更新",
+          "role": "秘书处",
+          "level": "suggest",
+          "deliverable": "季度进度台账"
+        },
+        {
+          "id": "AP-12",
+          "stage": "S5",
+          "title": "年中复盘与计划调整",
+          "role": "主任",
+          "level": "optional",
+          "deliverable": "年中复盘纪要"
+        },
+        {
+          "id": "AP-13",
+          "stage": "S5",
+          "title": "年末总结、考核与归档",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "年度工作总结"
+        }
+      ]
+    },
+    {
+      "name": "业务操作指引",
+      "prefix": "GL",
+      "desc": "把本领域高频业务做成可照做的操作指引：选题、起草、征求意见、论证、表决、发布、修订。",
+      "focus": {
+        "主任": "确定指引选题，主持论证会与专委会表决",
+        "副主任": "牵头起草条文与说明，组织与相邻专委交叉复核",
+        "秘书长": "组织征求意见，协调专家与协会业务部门",
+        "委员": "检索法规与案例，撰写条文说明和风险提示",
+        "秘书处": "承担会务、版本登记、合规审查送签与归档"
+      },
+      "deliverables": [
+        {
+          "name": "业务操作指引（送审稿）.md",
+          "format": "Markdown / Word",
+          "purpose": "提交协会审定发布",
+          "stage": "S3"
+        },
+        {
+          "name": "法规检索清单.csv",
+          "format": "CSV",
+          "purpose": "列明依据的条文与效力层级",
+          "stage": "S1"
+        },
+        {
+          "name": "征求意见汇总表.md",
+          "format": "Markdown",
+          "purpose": "记录意见来源、采纳情况与理由",
+          "stage": "S2"
+        },
+        {
+          "name": "论证会纪要.md",
+          "format": "Markdown",
+          "purpose": "论证过程留痕，备协会审查",
+          "stage": "S3"
+        },
+        {
+          "name": "指引宣讲材料.md",
+          "format": "Markdown / PPT",
+          "purpose": "发布后培训与答疑",
+          "stage": "S4"
+        }
+      ],
+      "items": [
+        {
+          "id": "GL-01",
+          "stage": "S1",
+          "title": "确定指引选题与适用范围",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "选题说明"
+        },
+        {
+          "id": "GL-02",
+          "stage": "S1",
+          "title": "组建起草小组（3–5 人，含至少 1 名副主任）",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "起草小组名单"
+        },
+        {
+          "id": "GL-03",
+          "stage": "S1",
+          "title": "检索现行法条、司法解释与行业规范",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "法规检索清单"
+        },
+        {
+          "id": "GL-04",
+          "stage": "S2",
+          "title": "梳理业务流程与风险点（访谈或问卷）",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "业务流程图与风险点清单"
+        },
+        {
+          "id": "GL-05",
+          "stage": "S2",
+          "title": "起草指引条文与条文说明",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "操作指引（初稿）"
+        },
+        {
+          "id": "GL-06",
+          "stage": "S2",
+          "title": "征求三家以上律所或委员书面意见",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "征求意见汇总表"
+        },
+        {
+          "id": "GL-07",
+          "stage": "S2",
+          "title": "与相邻专委交叉复核适用边界",
+          "role": "副主任",
+          "level": "suggest",
+          "deliverable": "交叉复核意见"
+        },
+        {
+          "id": "GL-08",
+          "stage": "S3",
+          "title": "召开专家论证会",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "论证会纪要"
+        },
+        {
+          "id": "GL-09",
+          "stage": "S3",
+          "title": "按意见修改并做合规审查（保密、宣传用语）",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "合规审查记录"
+        },
+        {
+          "id": "GL-10",
+          "stage": "S3",
+          "title": "提交专委会表决通过",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "表决记录"
+        },
+        {
+          "id": "GL-11",
+          "stage": "S4",
+          "title": "报协会业务部门审定发布",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "发布通知"
+        },
+        {
+          "id": "GL-12",
+          "stage": "S4",
+          "title": "组织指引宣讲与答疑",
+          "role": "秘书长",
+          "level": "suggest",
+          "deliverable": "指引宣讲材料"
+        },
+        {
+          "id": "GL-13",
+          "stage": "S5",
+          "title": "收集实施反馈并列入修订计划",
+          "role": "秘书处",
+          "level": "optional",
+          "deliverable": "实施反馈台账"
+        },
+        {
+          "id": "GL-14",
+          "stage": "S5",
+          "title": "全文归档并登记版本号",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "指引归档件"
+        }
+      ]
+    },
+    {
+      "name": "案例评选",
+      "prefix": "CR",
+      "desc": "从通知、申报、初评、终评、公示到案例集与入库，流程可复核、可申诉。",
+      "focus": {
+        "主任": "主持终评会，处理公示异议并签署入选名单",
+        "副主任": "牵头事实核验与案例集编写，把关脱敏",
+        "秘书长": "发布评选通知，组织公示并答复异议",
+        "委员": "承担初评评分与事实、证据核验",
+        "秘书处": "受理申报、编号、台账与案例入库"
+      },
+      "deliverables": [
+        {
+          "name": "案例评选通知.md",
+          "format": "Markdown / Word",
+          "purpose": "对外发布申报条件与截止时间",
+          "stage": "S1"
+        },
+        {
+          "name": "初评评分表.csv",
+          "format": "CSV",
+          "purpose": "隐名评审，按维度打分可复核",
+          "stage": "S2"
+        },
+        {
+          "name": "入选案例名单.md",
+          "format": "Markdown",
+          "purpose": "终评结果与公示依据",
+          "stage": "S3"
+        },
+        {
+          "name": "案例集（脱敏稿）.md",
+          "format": "Markdown / Word",
+          "purpose": "对外发布或内部学习",
+          "stage": "S4"
+        },
+        {
+          "name": "案例库目录.csv",
+          "format": "CSV",
+          "purpose": "入库编号、主题、来源与授权状态",
+          "stage": "S5"
+        }
+      ],
+      "items": [
+        {
+          "id": "CR-01",
+          "stage": "S1",
+          "title": "发布评选通知与申报条件",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "案例评选通知"
+        },
+        {
+          "id": "CR-02",
+          "stage": "S1",
+          "title": "组建评审组并签署利益冲突回避声明",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "评审组名单及回避声明"
+        },
+        {
+          "id": "CR-03",
+          "stage": "S1",
+          "title": "建立申报台账与编号规则",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "申报台账"
+        },
+        {
+          "id": "CR-04",
+          "stage": "S2",
+          "title": "受理申报并做形式审查",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "形式审查表"
+        },
+        {
+          "id": "CR-05",
+          "stage": "S2",
+          "title": "组织初评（隐名处理）",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "初评评分表"
+        },
+        {
+          "id": "CR-06",
+          "stage": "S2",
+          "title": "对入围案例做事实与证据核验",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "核验记录"
+        },
+        {
+          "id": "CR-07",
+          "stage": "S3",
+          "title": "召开终评会并形成入选名单",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "终评纪要"
+        },
+        {
+          "id": "CR-08",
+          "stage": "S3",
+          "title": "公示入选名单并设定异议期",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "公示稿"
+        },
+        {
+          "id": "CR-09",
+          "stage": "S3",
+          "title": "处理异议并全程留痕",
+          "role": "主任",
+          "level": "suggest",
+          "deliverable": "异议处理记录"
+        },
+        {
+          "id": "CR-10",
+          "stage": "S4",
+          "title": "编写案例集并做脱敏处理",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "案例集（脱敏稿）"
+        },
+        {
+          "id": "CR-11",
+          "stage": "S4",
+          "title": "发布与宣传（含合规审查）",
+          "role": "秘书长",
+          "level": "suggest",
+          "deliverable": "发布稿"
+        },
+        {
+          "id": "CR-12",
+          "stage": "S5",
+          "title": "案例入库、授权登记与归档",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "案例库目录"
+        },
+        {
+          "id": "CR-13",
+          "stage": "S5",
+          "title": "总结评选经验并提出下届改进",
+          "role": "主任",
+          "level": "optional",
+          "deliverable": "评选总结"
+        }
+      ]
+    },
+    {
+      "name": "培训沙龙",
+      "prefix": "TR",
+      "desc": "从选题、讲师、课程、报名、执行到回放与结算，一次可复用的培训闭环。",
+      "focus": {
+        "主任": "确定培训方向，开场致辞并作总结",
+        "副主任": "设计课程大纲，组织试讲与内容把关",
+        "秘书长": "征集讲师，发布报名通知并统计人数",
+        "委员": "承担授课、编写讲义与问答汇编",
+        "秘书处": "落实场地、签到、录音录像、结算与归档"
+      },
+      "deliverables": [
+        {
+          "name": "培训方案.md",
+          "format": "Markdown / Word",
+          "purpose": "主题、对象、场次、预算一次说清",
+          "stage": "S1"
+        },
+        {
+          "name": "课程大纲与讲义.md",
+          "format": "Markdown / PPT",
+          "purpose": "授课与学员留存",
+          "stage": "S2"
+        },
+        {
+          "name": "签到表.csv",
+          "format": "CSV",
+          "purpose": "课时统计与协会备案",
+          "stage": "S3"
+        },
+        {
+          "name": "满意度报告.md",
+          "format": "Markdown",
+          "purpose": "评估效果、支撑下期改进",
+          "stage": "S4"
+        },
+        {
+          "name": "问答汇编.md",
+          "format": "Markdown",
+          "purpose": "沉淀高频问题，对外发布前复核",
+          "stage": "S4"
+        }
+      ],
+      "items": [
+        {
+          "id": "TR-01",
+          "stage": "S1",
+          "title": "确定主题、对象与场次",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "培训方案"
+        },
+        {
+          "id": "TR-02",
+          "stage": "S1",
+          "title": "征集讲师与课题",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "讲师候选名单"
+        },
+        {
+          "id": "TR-03",
+          "stage": "S1",
+          "title": "落实场地或线上会议室与预算",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "场地与预算确认单"
+        },
+        {
+          "id": "TR-04",
+          "stage": "S2",
+          "title": "设计课程大纲与课时安排",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "课程大纲"
+        },
+        {
+          "id": "TR-05",
+          "stage": "S2",
+          "title": "制作讲义与案例材料",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "讲义"
+        },
+        {
+          "id": "TR-06",
+          "stage": "S2",
+          "title": "发布报名通知并统计人数",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "报名表"
+        },
+        {
+          "id": "TR-07",
+          "stage": "S3",
+          "title": "组织试讲与内容合规审查",
+          "role": "副主任",
+          "level": "suggest",
+          "deliverable": "试讲记录"
+        },
+        {
+          "id": "TR-08",
+          "stage": "S3",
+          "title": "现场执行（签到、录音录像、答疑）",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "签到表与录音"
+        },
+        {
+          "id": "TR-09",
+          "stage": "S4",
+          "title": "发放满意度问卷并统计",
+          "role": "秘书处",
+          "level": "suggest",
+          "deliverable": "满意度报告"
+        },
+        {
+          "id": "TR-10",
+          "stage": "S4",
+          "title": "整理问答汇编并发布",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "问答汇编"
+        },
+        {
+          "id": "TR-11",
+          "stage": "S4",
+          "title": "剪辑课程回放（须取得讲师授权）",
+          "role": "秘书处",
+          "level": "optional",
+          "deliverable": "回放文件"
+        },
+        {
+          "id": "TR-12",
+          "stage": "S5",
+          "title": "费用结算与票据归档",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "结算单"
+        },
+        {
+          "id": "TR-13",
+          "stage": "S5",
+          "title": "培训总结与下期计划",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "培训总结"
+        }
+      ]
+    },
+    {
+      "name": "立法建议",
+      "prefix": "LG",
+      "desc": "从立法动态跟踪、实务问题收集到建议稿、论证、表决与报送，形成可追溯的建议链。",
+      "focus": {
+        "主任": "确定立法切入点，主持论证会并签署报送函",
+        "副主任": "牵头起草建议稿（条文 + 理由）并统稿",
+        "秘书长": "组织征求意见，跟踪报送后的反馈",
+        "委员": "收集实务问题与典型案例，做比较法检索",
+        "秘书处": "承担会务、材料编号、归档与下一年度选题储备"
+      },
+      "deliverables": [
+        {
+          "name": "立法动态简报.md",
+          "format": "Markdown",
+          "purpose": "说明建议对象、窗口期与切入点",
+          "stage": "S1"
+        },
+        {
+          "name": "实务问题清单.csv",
+          "format": "CSV",
+          "purpose": "问题、案例、影响面与建议方向",
+          "stage": "S2"
+        },
+        {
+          "name": "立法建议稿（条文 + 理由）.md",
+          "format": "Markdown / Word",
+          "purpose": "报送与论证的核心文本",
+          "stage": "S2"
+        },
+        {
+          "name": "论证会纪要.md",
+          "format": "Markdown",
+          "purpose": "记录不同意见与处理结果",
+          "stage": "S3"
+        },
+        {
+          "name": "报送函.md",
+          "format": "Markdown / Word",
+          "purpose": "按渠道报送并留档",
+          "stage": "S4"
+        }
+      ],
+      "items": [
+        {
+          "id": "LG-01",
+          "stage": "S1",
+          "title": "跟踪立法与修法动态并确定切入点",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "立法动态简报"
+        },
+        {
+          "id": "LG-02",
+          "stage": "S1",
+          "title": "组建建议起草组",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "起草组名单"
+        },
+        {
+          "id": "LG-03",
+          "stage": "S1",
+          "title": "明确建议对象（法律/行政法规/司法解释/地方立法）",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "建议对象说明"
+        },
+        {
+          "id": "LG-04",
+          "stage": "S2",
+          "title": "收集实务问题与典型案例（脱敏）",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "实务问题清单"
+        },
+        {
+          "id": "LG-05",
+          "stage": "S2",
+          "title": "检索比较法与他地立法例",
+          "role": "委员",
+          "level": "suggest",
+          "deliverable": "比较法检索表"
+        },
+        {
+          "id": "LG-06",
+          "stage": "S2",
+          "title": "起草立法建议稿（条文 + 理由）",
+          "role": "副主任",
+          "level": "must",
+          "deliverable": "立法建议稿（初稿）"
+        },
+        {
+          "id": "LG-07",
+          "stage": "S2",
+          "title": "征求委员意见并汇总",
+          "role": "秘书长",
+          "level": "must",
+          "deliverable": "意见汇总"
+        },
+        {
+          "id": "LG-08",
+          "stage": "S3",
+          "title": "召开论证会（可邀学者、法官）",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "论证会纪要"
+        },
+        {
+          "id": "LG-09",
+          "stage": "S3",
+          "title": "做合法性、可行性自查",
+          "role": "委员",
+          "level": "must",
+          "deliverable": "自查表"
+        },
+        {
+          "id": "LG-10",
+          "stage": "S3",
+          "title": "提交专委会表决通过",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "表决记录"
+        },
+        {
+          "id": "LG-11",
+          "stage": "S4",
+          "title": "按渠道报送（协会、人大代表、政协）",
+          "role": "主任",
+          "level": "must",
+          "deliverable": "报送函"
+        },
+        {
+          "id": "LG-12",
+          "stage": "S4",
+          "title": "跟踪反馈并补充材料",
+          "role": "秘书长",
+          "level": "suggest",
+          "deliverable": "反馈跟踪表"
+        },
+        {
+          "id": "LG-13",
+          "stage": "S5",
+          "title": "归档并形成下一年度选题储备",
+          "role": "秘书处",
+          "level": "must",
+          "deliverable": "立法建议归档件"
+        }
+      ]
+    }
+  ]
+}

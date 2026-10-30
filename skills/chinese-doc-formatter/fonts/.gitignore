@@ -1,0 +1,11 @@
+# 字体文件不纳入版本控制
+#
+# 原因：仿宋类字体（方正仿宋 / 仿宋_GB2312 等）为商业字库，
+# 公开托管字体文件可能超出其授权范围。
+#
+# 本 skill 生成文书时按以下顺序探测本机已装字体，无需自带：
+#   仿宋_GB2312 → FangS-SC → FandolFang R → STFangsong → Songti SC
+#
+# 想指定字体，自行放到本目录或 ~/Library/Fonts/ 即可。
+*
+!.gitignore
